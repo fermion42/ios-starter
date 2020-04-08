@@ -3,7 +3,7 @@
 Xcode 11 with Swift Package Manager dependencies.
 For Xcode 10 and Carthage, check out the `xcode10` branch.
 
-`cookiecutter gh:allaboutapps/ios-starter`
+`cookiecutter gh:fermion42/ios-starter`
 
 ## Installation
 
@@ -28,7 +28,7 @@ Follow the configuration steps described in the [documentation](https://github.c
 
 ## Steps
 
-1. Run `cookiecutter gh:allaboutapps/ios-starter`.
+1. Run `cookiecutter gh:fermion42/ios-starter`.
 2. You'll be asked for project name, team details and bundle identifier details. If you don't have the localization tool installed, skip the `texterify` parameters. `cookiecutter` will create all files needed from the template on `github`.
 3. `xcodegen` will run automatically and generate the `Xcode` project file.
 4. Xcode launches your new project.
