@@ -16,9 +16,9 @@ settings:
 attributes:
   ORGANIZATIONNAME: {{cookiecutter.teamName}}
 packages:
-  AlamofireImage:
-    url: https://github.com/Alamofire/AlamofireImage
-    majorVersion: "4.0"
+  Kingfisher:
+    url: https://github.com/onevcat/Kingfisher
+    majorVersion: "5.8.0"
   Fetch:
     url: https://github.com/allaboutapps/Fetch
     majorVersion: "2.2"
@@ -126,7 +126,7 @@ targets:
       - package: Fetch
       - package: SimpleButton
       - package: StatefulViewController
-      - package: AlamofireImage
+      - package: Kingfisher 
 schemes:
   {{cookiecutter.projectName}} dev:
     build:
